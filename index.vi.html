@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookingAToZ.com - Đặt phòng khách sạn, chuyến bay & cho thuê kỳ nghỉ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">BookingAToZ.com</a>
+            <ul class="nav-links">
+                <li><a href="#">Chuyến đi của bạn</a></li>
+                <li><a href="#">Đánh giá</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="index.html"><button class="btn btn-secondary">Tiếng Anh</button></a>
+                <button class="btn btn-secondary">Đăng nhập</button>
+                <button class="btn btn-primary">Đăng ký</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Giảm giá tới 15% cho chuyến du lịch đầu tiên</h1>
+            <p>Đặt chuyến du lịch ngay bây giờ và tiết kiệm cho chuyến phiêu lưu tiếp theo của bạn</p>
+
+            <div class="search-box">
+                <div class="search-group">
+                    <label>Địa điểm nhận xe</label>
+                    <input type="text" placeholder="Bạn sẽ đi đâu?">
+                </div>
+                <div class="search-group">
+                    <label>Ngày nhận</label>
+                    <input type="date">
+                </div>
+                <div class="search-group">
+                    <label>Ngày trả</label>
+                    <input type="date">
+                </div>
+                <div class="search-group">
+                    <label>Hành khách</label>
+                    <select>
+                        <option>1 hành khách</option>
+                        <option>2 hành khách</option>
+                        <option>3+ hành khách</option>
+                    </select>
+                </div>
+                <button class="search-btn">Tìm kiếm</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Tại sao nên chọn Booking.com?</h2>
+        <div class="why-booking">
+            <div class="why-card">
+                <div class="why-card-icon">📝</div>
+                <h3>Đặt ngay, thanh toán tại chỗ nghỉ</h3>
+                <p>MIỄN PHÍ hủy đối với hầu hết các phòng. Đừng thanh toán cho đến khi bạn ở.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-card-icon">👍</div>
+                <h3>Hơn 300 triệu đánh giá từ những người bạn đồng hành</h3>
+                <p>Nhận thông tin đáng tin cậy từ những vị khách như bạn để đưa ra lựa chọn tốt nhất.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-card-icon">🌍</div>
+                <h3>Hơn 2 triệu địa điểm du lịch trên toàn thế giới</h3>
+                <p>Khách sạn, nhà nghỉ, căn hộ, và nhiều hơn nữa ở mọi điểm đến.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-card-icon">🎧</div>
+                <h3>Dịch vụ khách hàng đáng tin cậy 24/7</h3>
+                <p>Chúng tôi luôn ở đây để giúp đỡ với bất kỳ câu hỏi hoặc thắc mắc nào.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--bg-light);">
+        <h2 class="section-title">Ưu đãi</h2>
+        <p class="section-subtitle">Khuyến mãi, ưu đãi và ưu đãi đặc biệt dành cho bạn</p>
+        <div class="offers">
+            <div class="offer-card">
+                <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop" alt="Ưu đãi Ngày độc thân">
+                <div class="offer-overlay">
+                    <h3>Tiết kiệm ít nhất 15% trong Ngày độc thân này</h3>
+                    <p>Ưu đãi trong thời gian có hạn cho các cơ sở kinh doanh được chọn</p>
+                    <a href="#" class="offer-link">Khám phá ưu đãi →</a>
+                </div>
+            </div>
+            <div class="offer-card">
+                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop" alt="Nhà nghỉ dưỡng">
+                <div class="offer-overlay">
+                    <h3>Sống trong mơ tại một ngôi nhà nghỉ dưỡng</h3>
+                    <p>Tìm điểm đến nghỉ dưỡng hoàn hảo của bạn</p>
+                    <a href="#" class="offer-link">Đặt ngay →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Điểm đến thịnh hành</h2>
+        <p class="section-subtitle">Lựa chọn phổ biến nhất cho du khách từ Việt Nam</p>
+        <div class="trending-grid">
+            <div class="destination-card">
+                <img src="img/hcm.jpg" alt="Thành phố Hồ Chí Minh">
+                <div class="destination-overlay">
+                    <h4>Thành phố Hồ Chí Minh</h4>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="img/danang.jpg" alt="Đà Nẵng">
+                <div class="destination-overlay">
+                    <h4>Đà Nẵng</h4>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="img/hanoi.jpg" alt="Hà Nội">
+                <div class="destination-overlay">
+                    <h4>Hà Nội</h4>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="img/vungtau.jpg" alt="Vũng Tàu">
+                <div class="destination-overlay">
+                    <h4>Vũng Tàu</h4>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="img/dalat.jpg" alt="Đà Lạt">
+                <div class="destination-overlay">
+                    <h4>Đà Lạt</h4>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="img/nhatrang.jpg" alt="Nha Trang">
+                <div class="destination-overlay">
+                    <h4>Nha Trang</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--bg-light);">
+        <h2 class="section-title">Duyệt theo loại hình chỗ nghỉ</h2>
+        <div class="property-types">
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&h=300&fit=crop" alt="Khách sạn">
+                <div class="property-overlay">Khách sạn</div>
+            </div>
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=400&h=300&fit=crop" alt="Căn hộ">
+                <div class="property-overlay">Căn hộ</div>
+            </div>
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&h=300&fit=crop" alt="Khu nghỉ dưỡng">
+                <div class="property-overlay">Khu nghỉ dưỡng</div>
+            </div>
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=400&h=300&fit=crop" alt="Biệt thự">
+                <div class="property-overlay">Biệt thự</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Ưu đãi cho cuối tuần</h2>
+        <p class="section-subtitle">Tiết kiệm khi lưu trú từ ngày 24 tháng 10 - 26 tháng 10</p>
+        <div class="deals-grid">
+            <div class="deal-card">
+                <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600&h=400&fit=crop" alt="S79 Happy Hotel" class="deal-image">
+                <div class="deal-content">
+                    <span class="deal-rating">⭐ 9.0</span>
+                    <h3 class="deal-title">S79 Happy Hotel 1 Saigon</h3>
+                    <p class="deal-location">Thành phố Hồ Chí Minh</p>
+                    <p class="deal-price">1.235.520 VNĐ</p>
+                </div>
+            </div>
+            <div class="deal-card">
+                <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=400&fit=crop" alt="The Sóng Apartment" class="deal-image">
+                <div class="deal-content">
+                    <span class="deal-rating">⭐ 9.0</span>
+                    <h3 class="deal-title">The Sóng Apartment Vung Tau</h3>
+                    <p class="deal-location">Vũng Tàu</p>
+                    <p class="deal-price">1.200.000 VNĐ</p>
+                </div>
+            </div>
+            <div class="deal-card">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&h=400&fit=crop" alt="Dream Flower Dalat" class="deal-image">
+                <div class="deal-content">
+                    <span class="deal-rating">⭐ 9.3</span>
+                    <h3 class="deal-title">Dream Flower Dalat Hotel</h3>
+                    <p class="deal-location">Đà Lạt</p>
+                    <p class="deal-price">880.000 VNĐ</p>
+                </div>
+            </div>
+            <div class="deal-card">
+                <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&h=400&fit=crop" alt="The Suite Landmark" class="deal-image">
+                <div class="deal-content">
+                    <span class="deal-rating">⭐ 9.0</span>
+                    <h3 class="deal-title">The Suite Landmark City View</h3>
+                    <p class="deal-location">Thành phố Hồ Chí Minh</p>
+                    <p class="deal-price">3.005.640 VNĐ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Bạn muốn tìm hiểu thêm về cuộc phiêu lưu tiếp theo của mình?</h2>
+            <p>Đăng ký và chúng tôi sẽ gửi cho bạn những ưu đãi tốt nhất</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Nhập email của bạn" required>
+                <button type="submit">Đăng ký</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Công ty</h4>
+                <ul>
+                    <li><a href="#">Về chúng tôi</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Báo chí</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Hỗ trợ</h4>
+                <ul>
+                    <li><a href="#">Liên hệ với chúng tôi</a></li>
+                    <li><a href="#">Trung tâm trợ giúp</a></li>
+                    <li><a href="#">An toàn</a></li>
+                    <li><a href="#">Điều khoản & điều kiện</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Khám phá</h4>
+                <ul>
+                    <li><a href="#">Ứng dụng di động</a></li>
+                    <li><a href="#">Trở thành đối tác</a></li>
+                    <li><a href="#">Chương trình liên kết</a></li>
+                    <li><a href="#">Bền vững</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Theo dõi chúng tôi</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Booking.com. Đã đăng ký Bản quyền. | Chính sách Bảo mật | Điều khoản Dịch vụ</p>
+        </div>
+    </footer>
+</body>
+</html>
